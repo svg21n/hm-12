@@ -25,12 +25,14 @@
 .card-info h3 {
   margin: 0;
   color: #333;
+  font-size: 20px;
 }
 
 .card-info p {
   margin: 10px 0;
   color: #f00;
   font-weight: bold;
+  font-size: 25px;
 }
 
 .card-info button {
@@ -39,7 +41,7 @@
   border: none;
   background-color: #00f;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -59,11 +61,13 @@
 @media screen and (min-width:1100px) {
   .card {
     width: 45%;
+    height: 100%;
+    text-align: center;
   }
 
   .card img {
-    width: 58%;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     margin: auto;
   }
@@ -72,17 +76,18 @@
 
 @media screen and (max-width:1100px) {
   .card {
-    width: 500px;
-    height: 750px;
+    width: 60%;
+    height: 100%;
     margin: 10px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     flex-direction: column;
+    text-align: center;
   }
 
   .card img {
-    width: 100%;
-    height: 600px;
+    width: 500px;
+    height: 680px;
     object-fit: cover;
     margin: auto;
   }
